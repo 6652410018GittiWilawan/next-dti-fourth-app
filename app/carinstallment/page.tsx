@@ -1,5 +1,6 @@
 "use client";
 
+import Link from 'next/link';
 import React, { useState } from 'react';
 
 // The main App component for the Car Installment Calculator.
@@ -183,11 +184,11 @@ export default function App() {
         
         {/* Home Button */}
         <div className="mt-4">
-          <a href="/" 
+          <Link href="/" 
             className="block w-full bg-gradient-to-r from-blue-500 to-blue-600 text-white font-bold py-3 px-4 rounded-full shadow-lg hover:from-blue-600 hover:to-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transform transition-all duration-200 ease-in-out hover:scale-105"
           >
             กลับหน้าหลัก
-          </a>
+          </Link>
         </div>
         
         {/* Result Display */}
