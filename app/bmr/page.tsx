@@ -64,7 +64,7 @@ export default function App() {
         
         {/* Input fields */}
         <div className="text-left">
-           {/* Height Input */}
+            {/* Height Input */}
           <div className="mb-4">
             <label htmlFor="height" className="block text-sm font-medium text-gray-400">ป้อนส่วนสูง (เซนติเมตร)</label>
             <input
@@ -87,7 +87,7 @@ export default function App() {
             />
           </div>
           
-         
+           
           
           {/* Age Input */}
           <div className="mb-4">
